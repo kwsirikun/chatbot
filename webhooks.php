@@ -21,8 +21,10 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			if ( $text == '1' )  {
+			//if ( $text == '1' )  {
 
+			$text = 'ท่านพิมพ์มาว่า ' . $text
+			
 			
 			
 			// Build message to reply back
@@ -31,7 +33,7 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 				
-					    }
+			//		    }
 					  
 					  
 
