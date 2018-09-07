@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			if ( $text = '1' )  {   echo "1" ;			
+			if ( $text = 1 )  {
 
 			
 			
