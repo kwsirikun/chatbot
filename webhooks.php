@@ -21,14 +21,15 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-						
+			if $text == '1' {			
 
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
 				'text' => $text
 			];
-					  
+				
+				}
 					  
 					  
 
