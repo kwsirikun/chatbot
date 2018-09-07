@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
 			
 			//if ( $text == '1' )  {
 
-			$text = 'ท่านพิมพ์มาว่า ' . $text
+			$text = 'ท่านพิมพ์มาว่า ' . $text ;
 			
 			
 			
