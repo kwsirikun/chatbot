@@ -19,6 +19,10 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
+			
+			if $text == '1'  {  $text = 'คุณกด 1' }
+			
+			
 
 			// Build message to reply back
 			$messages = [
