@@ -21,11 +21,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			$textFile = new TextFile('userId_and_message.txt');
-			$textFile->write('test');
-			
-			
-			
+						
 
 			$text = 'ท่านพิมพ์มาว่า ' . $text ;
 				
