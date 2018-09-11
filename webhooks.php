@@ -21,11 +21,14 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			//if ( $text == '1' )  {
+			$textFile = new TextFile('userId_and_message.txt');
+			$textFile->write('test');
+			
+			
+			
 
 			$text = 'ท่านพิมพ์มาว่า ' . $text ;
-			
-			
+				
 			
 			// Build message to reply back
 			$messages = [
@@ -33,7 +36,7 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 				
-			//		    }
+			
 					  
 					  
 
