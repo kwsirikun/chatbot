@@ -21,12 +21,10 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			echo "ทดสอบ write file" >> message2.text;
-			git init;
-			git add message2.text;
-			git commit -m "first commit"  ;
-			git remote add origin https://github.com/kwsirikun/chatbot.git ;
-			git push -u origin master ;
+			$my_file = 'message.txt';
+   			$handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
+   			$data = 'This is the data';
+   			fwrite($handle, $data);
 
 			
 			
