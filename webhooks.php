@@ -26,6 +26,8 @@ if (!is_null($events['events'])) {
 			$data = 'This is the data';
 			fwrite($handle, $data);
 			
+			echo $data >> message.text ;
+			
 			
 						
 
