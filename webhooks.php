@@ -21,10 +21,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			
-			$my_file = 'https://github.com/kwsirikun/chatbot/blob/master/message.text';
-   			$handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
-   			$data = 'This is the data';
-   			fwrite($handle, $data);
+			
 
 			
 			
