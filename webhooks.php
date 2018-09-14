@@ -50,7 +50,7 @@ if (!is_null($events['events'])) {
 	var database = firebase.database();				
 			
 	function writeUserData(userId, name, email, imageUrl) {
-  	firebase.database().ref('users/' + userId).set({
+  	firebase.database().ref('users/' + U4fc288ad0ee120b1251d7a319f55a2be ).set({
     	username: "PinneKw",
     	email: "aaaaa@yahoo.com",
     	profile_picture : "https://pbs.twimg.com/profile_images/446884770010505216/FX94E801_400x400.jpeg"
