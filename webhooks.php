@@ -51,9 +51,9 @@ if (!is_null($events['events'])) {
 			
 	function writeUserData(userId, name, email, imageUrl) {
   	firebase.database().ref('users/' + userId).set({
-    	username: name,
-    	email: email,
-    	profile_picture : imageUrl
+    	username: "PinneKw",
+    	email: "aaaaa@yahoo.com",
+    	profile_picture : "https://pbs.twimg.com/profile_images/446884770010505216/FX94E801_400x400.jpeg"
   	});
 }
 			
