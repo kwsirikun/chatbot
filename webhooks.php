@@ -49,11 +49,21 @@ if (!is_null($events['events'])) {
 ////////////////////////////////////////
 <script>			
 
-	var database = firebase.database();						
+	var database = firebase.database();	
 			
 	
-
-			</script>
+	function writeUserData(userId, name, email, imageUrl) {
+  	firebase.database().ref('users/' + userId).set({
+   	 username: name,
+    	email: email,
+    	profile_picture : imageUrl
+  	});
+	}
+			
+			
+			
+			
+</script>
 			
 			
 			
