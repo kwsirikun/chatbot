@@ -1,3 +1,19 @@
+
+<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB4zWZUZfT6k48CgXgH--q2Qce-IKZMwK0",
+    authDomain: "chatbot-eee95.firebaseapp.com",
+    databaseURL: "https://chatbot-eee95.firebaseio.com",
+    projectId: "chatbot-eee95",
+    storageBucket: "chatbot-eee95.appspot.com",
+    messagingSenderId: "318378198666"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
 <?php // callback.php
 
 require "vendor/autoload.php";
