@@ -53,7 +53,7 @@ if (!is_null($events['events'])) {
 			
 	
 	function writeUserData(userId, name, email, imageUrl) {
-  	firebase.database().ref('users/' + 12345).set({
+  	firebase.database().ref('users/' + "12345").set({
    	 username: "Pinne",
     	email: "1234@yahoo.com",
     	profile_picture : "http://"
