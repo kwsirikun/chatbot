@@ -14,6 +14,12 @@
 </script>
 
 
+
+
+
+
+
+
 <?php // callback.php
 
 require "vendor/autoload.php";
@@ -41,11 +47,13 @@ if (!is_null($events['events'])) {
 			
 			
 ////////////////////////////////////////
-			
-						
-			
-			
+<script>			
 
+	var database = firebase.database();						
+			
+	
+
+			</script>
 			
 			
 			
